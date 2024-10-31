@@ -1,0 +1,147 @@
+button.call-btn {
+    border: unset;
+    background-color: transparent;
+    font-size: 23px;
+    font-weight: 700;
+}
+body{
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+button.call-btn span img {
+    margin-right: 10px;
+    width: 21px;
+}
+label {
+  padding: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label, input[type="checkbox"]:checked + label {
+  border-color: #f15874;
+  border: 2px solid #f15874;
+  border-radius: 6px;
+}
+.btncol {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header {
+    padding: 13px 0;
+    border-bottom: 6px solid #e5e5e5;
+}
+header img {
+    width: 22%;
+}
+body {
+    background-color: #f2f2f2;
+}
+
+section.footer-btn {
+    width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid #f15874;
+}
+
+section.footer-btn .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+button.backbtn {
+    border: unset;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button.backbtn i.fa {
+    margin-right: 10px;
+}
+
+button.nextbtn {
+    font-size: 20px;
+    font-weight: 600;
+    border: unset;
+    background-color: #f15874;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 4px;
+}
+
+button.nextbtn i.fa {
+    margin-left: 10px;
+}
+section.herosection {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    height: 70vh;
+}
+
+section.herosection h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: unset;
+    margin-bottom: 21px;
+    padding: 16px 17px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #a2a2a2;
+    border-radius: 6px;
+}
+
+input[type="text"]::placeholder {
+    color: #a2a2a2;
+}
+input[type=text]:focus-visible {
+
+    outline-color: #f15874;
+  }
+section.herosection:before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    left: 0;
+    top: -5px;
+    background-color: #f15d74;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.inputbox {
+    background-color: #fff;
+    border-radius: 6px;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 0 4px 1px #d9d9d9;
+    /*border: 2px solid #fff;*/
+    transition: 0.2s all ease;
+}
+.inputbox label {
+    padding: 40px;
+}
+
+.inputbox img {
+    margin: 25px 0;
+}
+
+.inputbox h3.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inputbox p {
+    font-size: 16px;
+    font-weight: 400;
+}
